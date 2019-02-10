@@ -1,0 +1,100 @@
+body {
+    background-color: #d2b48c;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 2px dotted black;
+    padding: 3px 3px 5px 5px;
+    font-family: sans-serif;
+}
+
+#myimage {
+    width: 700px;
+}
+
+ul.navigation-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 150%;
+    /* TEST */
+}
+
+@media screen and (max-width: 600px) {
+
+    navigation-list li.right,
+    navigation-list li {
+        float: none;
+    }
+}
+
+li.nav-list-style {
+    float: left;
+}
+
+li.nav-list-style a,
+.dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 150%;
+    /* TEST */
+}
+
+/* use black (#111) */
+li a:hover:not(.active) {
+    background-color: #4893e8;
+}
+
+.active {
+    background-color: ivory;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    color: yellow;
+    background-color: #006AA7;
+    font-weight: bold;
+}
+
+
+h1 {
+    color: #006AA7 ;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.geneology {
+    background-color: ivory;
+}
